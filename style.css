@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400;600&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(210, 36%, 96%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+article h1 {
+  margin-top: 10rem;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.line {
+  height: 0.25rem;
+  background-color: hsl(205, 78%, 60%);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin-top: 2rem;
+  width: 80vw;
+  max-width: 650px;
+  padding: 1.5rem 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  position: relative;
+}
+
+#profile-pic {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+section #name {
+  color: rgb(150, 25, 150);
+}
+
+section #job {
+  color: hsl(205, 80%, 65%);
+}
+
+#review-content {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0px 1rem;
+  color: hsl(209, 22%, 49%);
+  text-align: center;
+}
+
+section button {
+  font-size: 2rem;
+  border: none;
+  background-color: inherit;
+  padding: 0.5rem;
+  color: rgb(253, 100, 100);
+  border-radius: 15%;
+  background-color: hsl(209, 1%, 92%);
+}
+section .previous {
+  position: absolute;
+  left: 5px;
+  top: 45%;
+}
+
+section .next {
+  position: absolute;
+  right: 5px;
+  top: 45%;
+}
+
+section button:hover {
+  color: red;
+  cursor: pointer;
+  background-color: hsl(209, 1%, 90%);
+}
